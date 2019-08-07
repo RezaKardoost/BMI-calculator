@@ -39,7 +39,7 @@ class _InitPageState extends State<InitPage> {
                 color: Colors.black12,
                 child: TextField(
                     controller: weightController,
-                    keyboardType: TextInputType.number,
+                    keyboardType: TextInputType.numberWithOptions(decimal: true),
                     decoration: InputDecoration(
                         contentPadding:
                             EdgeInsets.symmetric(horizontal: 10, vertical: 10),
@@ -55,7 +55,7 @@ class _InitPageState extends State<InitPage> {
                 color: Colors.black12,
                 child: TextField(
                     controller: hightController,
-                    keyboardType: TextInputType.number,
+                    keyboardType: TextInputType.numberWithOptions(decimal: true),
                     decoration: InputDecoration(
                         contentPadding:
                             EdgeInsets.symmetric(horizontal: 10, vertical: 10),
